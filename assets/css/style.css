@@ -259,3 +259,45 @@ input[type=submit] {
 }
 
 }
+
+@media screen and (max-width:768px)
+{
+  #logo {
+    float: left;
+    width: 250px;
+    height: 90px;
+    margin-left: 0;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+  }
+  
+  nav {
+    float: right;
+    margin-top: 25px;
+    margin-right: 0px;
+  }
+
+  .container {
+  width: 100%;
+  max-width: 650px;
+  margin: 0 auto;
+  clear: both;
+}
+
+.main-section {
+  float: left;
+  width: 100%;
+  max-width: 650px;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+}
+
+}
